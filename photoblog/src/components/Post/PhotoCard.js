@@ -12,12 +12,13 @@ const PhotoCard = (props) => {
            alt= 'Username'
            src="/static/images/avatar/1.jpg"
          />
-          <h3>{props.name}</h3>
+          <span className="PhotoCard__name">{props.name}</span>
         </div>
          <img className="PhotoCard__img" src={image}/>
 
         <div className="PhotoCard__info">
          <h5 className="PhotoCard__date">{props.date}</h5>
+         <span className="PhotoCard__title">{props.title}</span>
          <h4 className="PhotoCard__text">{props.caption}</h4>
         </div>
       </div>
