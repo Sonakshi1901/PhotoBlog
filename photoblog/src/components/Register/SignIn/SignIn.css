@@ -61,8 +61,21 @@
   height: 84px;
   left: 590.6px;
   top: 251px;
+  border: none;
+  outline: none;
   background: #494949;
   box-shadow: -6px -6px 12px rgba(255, 255, 255, 0.05), 6px 6px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 121px;
+}
+
+.SignIn__next1:hover{
+  position: absolute;
+  width: 84px;
+  height: 84px;
+  left: 590.6px;
+  top: 251px;
+  background: #494949;
+  box-shadow: inset -6px -6px 12px rgba(255, 255, 255, 0.05), inset 6px 6px 10px rgba(0, 0, 0, 0.25);
   border-radius: 121px;
 }
 
@@ -76,7 +89,7 @@
   background: #9E53CC;
 }
 
-.SignIn__next3{
+/*.SignIn__next3{
   position: absolute;
   width: 39.5px;
   height: 31.125px;
@@ -84,58 +97,79 @@
   top: 273.5px;
   background: #9E53CC;
   transform: rotate(90deg);
-}
+}*/
 
-.SignIn__username{
+.SignIn__username input{
   position: absolute;
   width: 363.5px;
   height: 53px;
   left: 193px;
   top: 203px;
+  border: none;
+  outline: none;
 
   background: #494949;
   box-shadow: inset -6px -6px 12px rgba(255, 255, 255, 0.05), inset 6px 6px 10px rgba(0, 0, 0, 0.25);
   border-radius: 47px;
-}
 
-.SignIn__name{
   position: absolute;
-  width: 200px;
-  height: 45px;
-  left: 30px;
-  top: 20px;
-
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  text-align: center;
+  font-size: 18px;
   line-height: 11px;
 
   color: rgba(186, 175, 175, 0.42);
 }
 
-.SignIn__password{
+
+.SignIn__password input{
   position: absolute;
   width: 363.5px;
   height: 53px;
   left: 193px;
   top: 317px;
+  border: none;
+  outline: none;
 
   background: #494949;
   box-shadow: inset -6px -6px 12px rgba(255, 255, 255, 0.05), inset 6px 6px 10px rgba(0, 0, 0, 0.25);
   border-radius: 47px;
-}
 
-.SignIn__user__password{
   position: absolute;
-  width: 200px;
-  height: 45px;
-  left: 30px;
-  top: 20px;
-
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  text-align: center;
+  font-size: 18px;
   line-height: 11px;
 
   color: rgba(186, 175, 175, 0.42);
+}
+
+.SignIn__forgotpass{
+  position: absolute;
+  width: 111px;
+  height: 28px;
+  left: 440.5px;
+  top: 380px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 21px;
+
+  color: #9E53CC;
+}
+
+.SignUp__change{
+  position: absolute;
+  width: 100px;
+  height: 28px;
+  left: 330px;
+  top: 460px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 21px;
+  color: #9E53CC;
 }
