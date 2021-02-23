@@ -6,22 +6,34 @@ const SignUp = (props) => {
   return (
     <div className="SignUp">
       <div className="SignUp__container">
-        <h2>Sign Up</h2>
+        <div className="SignUp__header">
+          <span className="SignUp__header__text">Sign Up</span>
+        </div>
+
+        <span className="SignUp__logo1"></span>
+        <span className="SignUp__logo2"></span>
+        <span className="SignUp__logo3"></span>
 
       <div className="SignUp__username">
-       <h3>Enter a username</h3>
-       <h3>{props.username}</h3>
+       <input type="text" placeholder="Enter your username"/>
+       <span>{props.username}</span>
       </div>
 
       <div className="SignUp__password">
-       <h3>Enter a password</h3>
-       <h3>{props.password}</h3>
+       <input type="password" placeholder="Enter your password"/>
+       <span>{props.password}</span>
       </div>
 
-      <div className="SignUp__password">
-       <h3>Enter an email address</h3>
-       <h3>{props.email}</h3>
+      <button className="SignUp__next1"></button>
+      <span className="SignUp__next2"></span>
+      <span className="SignUp__next3"></span>
+
+      <div className="SignUp__email_address">
+       <input type="email" placeholder="Enter your email address"/>
+       <span>{props.email}</span>
       </div>
+
+      <a href="##" className="SignIn__change">Wanna Sign In?</a>
 
       </div>
     </div>
