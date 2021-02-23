@@ -1,0 +1,182 @@
+.SignUp__container{
+  position: absolute;
+  width: 720px;
+  height: 512px;
+  background: #494949;
+}
+
+.SignUp__header{
+  padding: 10px;
+  position: absolute;
+  width: 102px;
+  height: 34px;
+  left: 318px;
+  top: 158px;
+}
+
+.SignUp__header__text{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 8px;
+  text-transform: uppercase;
+
+  color: #9E53CC;
+}
+
+.SignUp__logo1{
+  position: absolute;
+  width: 97.75px;
+  height: 64.9px;
+  left: 324.5px;
+  top: 42.6px;
+  background: #494949;
+  box-shadow: inset -4px -4px 6px rgba(255, 255, 255, 0.25), inset 6px 6px 10px rgba(0, 0, 0, 0.25);
+}
+
+.SignUp__logo2{
+  position: absolute;
+  width: 41.92px;
+  height: 41.92px;
+  left: 368.5px;
+  top: 53.6px;
+  background: #494949;
+  box-shadow: -4px -4px 6px rgba(255, 255, 255, 0.25), 6px 6px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 121px;
+}
+
+.SignUp__logo3{
+  position: absolute;
+  width: 24px;
+  height: 20px;
+  left: 375.9px;
+  top: 23px;
+  background: #494949;
+  box-shadow: inset -3px -3px 6px rgba(255, 255, 255, 0.25), inset 6px 6px 15px rgba(0, 0, 0, 0.25);
+}
+
+.SignUp__next1{
+  position: absolute;
+  width: 84px;
+  height: 84px;
+  left: 590.6px;
+  top: 251px;
+  border: none;
+  outline: none;
+  background: #494949;
+  box-shadow: -6px -6px 12px rgba(255, 255, 255, 0.05), 6px 6px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 121px;
+}
+
+.SignUp__next1:hover{
+  position: absolute;
+  width: 84px;
+  height: 84px;
+  left: 590.6px;
+  top: 251px;
+  background: #494949;
+  box-shadow: inset -6px -6px 12px rgba(255, 255, 255, 0.05), inset 6px 6px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 121px;
+}
+
+.SignUp__next2{
+  position: absolute;
+  width: 39.1px;
+  height: 18.5px;
+  left: 604px;
+  top: 283.5px;
+
+  background: #9E53CC;
+}
+
+/*.SignUp__next3{
+  position: absolute;
+  width: 39.5px;
+  height: 31.125px;
+  left: 682px;
+  top: 273.5px;
+  background: #9E53CC;
+  transform: rotate(90deg);
+}*/
+
+.SignUp__username input{
+  position: absolute;
+  width: 363.5px;
+  height: 53px;
+  left: 193px;
+  top: 203px;
+  border: none;
+  outline: none;
+
+  background: #494949;
+  box-shadow: inset -6px -6px 12px rgba(255, 255, 255, 0.05), inset 6px 6px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 47px;
+
+  position: absolute;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  font-size: 18px;
+  line-height: 11px;
+
+  color: rgba(186, 175, 175, 0.42);
+}
+
+.SignUp__password input{
+  position: absolute;
+  width: 363.5px;
+  height: 53px;
+  left: 193px;
+  top: 300px;
+  border: none;
+  outline: none;
+
+  background: #494949;
+  box-shadow: inset -6px -6px 12px rgba(255, 255, 255, 0.05), inset 6px 6px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 47px;
+
+  position: absolute;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  font-size: 18px;
+  line-height: 11px;
+
+  color: rgba(186, 175, 175, 0.42);
+}
+
+.SignUp__email_address input{
+  position: absolute;
+  width: 363.5px;
+  height: 53px;
+  left: 193px;
+  top: 395px;
+  border: none;
+  outline: none;
+
+  background: #494949;
+  box-shadow: inset -6px -6px 12px rgba(255, 255, 255, 0.05), inset 6px 6px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 47px;
+
+  position: absolute;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  font-size: 18px;
+  line-height: 11px;
+
+  color: rgba(186, 175, 175, 0.42);
+}
+
+.SignIn__change{
+  position: absolute;
+  width: 100px;
+  height: 28px;
+  left: 330px;
+  top: 480px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 21px;
+  color: #9E53CC;
+}
