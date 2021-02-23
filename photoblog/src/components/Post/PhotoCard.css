@@ -18,7 +18,14 @@
 .PhotoCard__text {
   font-weight: normal;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.PhotoCard__title {
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 19px;
   padding: 10px;
 }
 
@@ -26,7 +33,7 @@
   text-transform: uppercase;
   font-weight: normal;
   color: darkgray;
-  font-size: 16px;
+  font-size: 14px;
   padding-left: 10px;
 }
 
@@ -34,6 +41,12 @@
   display: flex;
   align-items: center;
   padding: 10px 10px;
+}
+
+.PhotoCard__name {
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 18px;
 }
 
 .PhotoCard__avatar {
