@@ -2,9 +2,13 @@ import express from "express";
 import bodyParser from "body-parser";
 import mongoose from "mongoose";
 import cors from "cors";
+import postRoutes from './routes/posts.js'
 
 
 const app = express();
+
+{/* http://localhost:5000/posts */}
+app.use("/posts", postRoutes);
 
 {/*bodyParser is done so that we can properly send our requests (images)*/}
 app.use(bodyParser.json({limit: "30mb", extended: true}));
