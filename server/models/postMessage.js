@@ -2,11 +2,19 @@ import mongoose from "mongoose";
 
 {/*mongoose gives us a uniformity in our documents*/}
 const postSchema = mongoose.Schema({
-  title: String,
-  message: String,
-  creator: String,
+  title: {
+    type: String
+  },
+  message: {
+    type: String
+  },
+  creator: {
+    type: String
+  },
   tags: [String],
-  selectedFile: String,
+  selectedFile: {
+    type: String
+  },
   likeCount: {
     type: Number,
     default: 0

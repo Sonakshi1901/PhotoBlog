@@ -7,13 +7,13 @@ import postRoutes from './routes/posts.js'
 
 const app = express();
 
-{/* http://localhost:5000/posts */}
-app.use("/posts", postRoutes);
-
 {/*bodyParser is done so that we can properly send our requests (images)*/}
 app.use(bodyParser.json({limit: "30mb", extended: true}));
 app.use(bodyParser.urlencoded({limit: "30mb", extended: true}));
 app.use(cors());
+
+{/* http://localhost:5000/posts */}
+app.use("/posts", postRoutes);
 
 const CONNECTION_URL = "mongodb+srv://Sonakshi_1901:Suga1993@cluster0.xbzaf.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 const PORT = process.env.PORT || 5000;
