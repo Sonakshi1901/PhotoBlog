@@ -2,19 +2,11 @@ import mongoose from "mongoose";
 
 {/*mongoose gives us a uniformity in our documents*/}
 const postSchema = mongoose.Schema({
-  title: {
-    type: String
-  },
-  message: {
-    type: String
-  },
-  creator: {
-    type: String
-  },
+  title: String,
+  message: String,
+  creator: String,
   tags: [String],
-  selectedFile: {
-    type: String
-  },
+  selectedFile: String,
   likeCount: {
     type: Number,
     default: 0
@@ -25,6 +17,6 @@ const postSchema = mongoose.Schema({
   },
 });
 
-const PostMessage = mongoose.model("PostMessage", postSchema);
+const PostMessage = mongoose.model('PostMessage', postSchema);
 
 export default PostMessage;

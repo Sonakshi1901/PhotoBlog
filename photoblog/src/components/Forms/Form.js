@@ -9,8 +9,7 @@ const Form = () => {
   const classes = useStyles();
   const dispatch = useDispatch();
 
-  const [postData, setPostData] = useState({
-      creator: '', title: '', message: '', tags: '', selectedFile: '' });
+  const [postData, setPostData] = useState({ creator: '', title: '', message: '', tags: '', selectedFile: '' });
 
   const handleSubmit = (e) => {
      e.preventDefault();
